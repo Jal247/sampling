@@ -6,6 +6,7 @@ Examine the code in `whitby_covid_tracing.py`. Identify all stages at which samp
 
 Run the Python script file called whitby_covid_tracing.py as is and compare the results to the graphs in the original blog post. Does this code appear to reproduce the graphs from the original blog post?
 
+
 Modify the number of repetitions in the simulation to 1000 (from the original 50000). Run the script multiple times and observe the outputted graphs. Comment on the reproducibility of the results.
 
 Alter the code so that it is reproducible. Describe the changes you made to the code and how they affected the reproducibility of the script file. The output does not need to match Whitby’s original blogpost/graphs, it just needs to produce the same output when run multiple times
@@ -71,6 +72,15 @@ Repetition: The entire simulation process (from event creation to infection and 
 This allows the model to generate a distribution of outcomes (proportions of infections and traces) to be analyzed in aggregate.
 
 
+Run the Python script file called whitby_covid_tracing.py as is and compare the results to the graphs in the original blog post. 
+
+Both histograms show a similar distribution with a noticeable peak between 0.15 and 0.25 for both infections (blue) and traced cases (red).Also, Both histograms show a high frequency in the middle range for traced cases. For Skew and Overlap: In both histograms, the red bars (traced to weddings) show a broader spread than the blue bars (infections), indicating that contact tracing inflates the perceived source of infections.
+
+These characteristics suggest the given histogram accurately reflects the trends shown in the blog's visualization.
+
+Does this code appear to reproduce the graphs from the original blog post?
+
+Yes, the code provided does appear to reproduce the graphs from the original blog post. 
 
 
 ## Criteria
