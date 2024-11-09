@@ -15,7 +15,7 @@ Alter the code so that it is reproducible. Describe the changes you made to the 
 ```
 Please write your explanation here...
 
-```
+
 1. Population:
 
 Sampling Frame: The sampling frame is all individuals attending events (weddings and brunches), represented in the ppl DataFrame. Specifically, 200 individuals are assigned to the "wedding" event, and 800 individuals are assigned to the "brunch" event. 
@@ -68,7 +68,39 @@ The sampling process in this model includes:
 
    Repetition: The entire simulation process (from event creation to infection and tracing) is repeated 50,000 times:
 
-This allows the model to generate a distribution of outcomes (proportions of infections and traces) to be analyzed in aggregate.
+  This allows the model to generate a distribution of outcomes (proportions of infections and traces) to be analyzed in aggregate.
+
+
+Que: Run the Python script file called whitby_covid_tracing.py as is and compare the results to the graphs in the original blog post. 
+
+Both histograms show a similar distribution with a noticeable peak between 0.15 and 0.25 for both infections (blue) and traced cases (red).Also, Both histograms show a high frequency in the middle range for traced cases. For Skew and Overlap: In both histograms, the red bars (traced to weddings) show a broader spread than the blue bars (infections), indicating that contact tracing inflates the perceived source of infections.
+
+These characteristics suggest the given histogram accurately reflects the trends shown in the blog's visualization.
+
+Que: Does this code appear to reproduce the graphs from the original blog post?
+
+Yes, the code provided does appear to reproduce the graphs from the original blog post. 
+
+Here, I have added np.random.seed(42) at the start of the simulate_event function to ensure that the random sampling processes ( infection assignment and tracing) produce the same results each time the code is run. This eliminates variability in the output.
+Setting the random seed ensures that the results are consistent across multiple runs.
+Without this step, the random processes (e.g., infection and tracing assignments) would change every time the script is run, making the output non-reproducible.
+```
+I ran the code multiple times after setting the random seed and it gives same output everytime.
+
+here added image of
+1. running code 50000 time without setting random seed
+
+![output interactive-1](https://github.com/user-attachments/assets/13fe55c0-d05f-4e83-97c2-f63b01f087c7)
+
+2. histogram with 1000 repetation
+
+![output interactive-2 with 1000 repetation](https://github.com/user-attachments/assets/24f96bc5-a0e2-4a2d-8557-5290ada9a7e6)
+
+3. histogram with 1000 repetation after setting random seed
+
+
+![output interactive-2 with 1000 repetation](https://github.com/user-attachments/assets/b66c8d5c-f768-4efd-b672-9a685f75ca58)
+
 
 
 
