@@ -16,29 +16,83 @@ Select one of the scenarios below and design a survey to meet the need(s) outlin
 
 # Your Changes
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `# 1 You work in the Human Resources Department at a large tech company. Over the past few months, the company has been experiencing a high turnover rate across many of its departments, specifically within the entry- and lower-level positions. The company wishes to understand why this turnover is happening, and what changes need to occur to improve employee satisfaction.
+`
 
 Describe the purpose of your survey:
 ```
-write your answer here...
+The purpose of this survey is to understand the factors contributing to the high turnover rate in entry- and lower-level positions at the company. By collecting insights on employee satisfaction, work environment, and potential areas for improvement, the HR department trgeting to identify actionable changes that can enhance job satisfaction and that result in employee retention.
+
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+Target Population:  Entry- and lower-level employees currently employed at the company.
+
+Sampling Frame: Employees across various departments with entry- and lower-level roles. This will include employees who have been with the company for under 2-3 years, as they represent the group most affected by turnover.
+
+Sampling Units: Each employee in an entry- or lower-level position represents a sampling unit.
+
+Sampling Strategy:
+
+thought 1: we can use a simple random sampling strategy to ensure a representative sample of employees across different departments and to gather diverse perspectives on factors affecting satisfaction and turnover.
+
+thought 2:
+The survey will use a stratified random sampling approach to ensure representation across departments. This will help capture a range of experiences and identify department-specific issues.
+
+
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
+1. On a scale of 1 to 5, How satisfied are you with your current role at the company?
+
+      1- Very Dissatisfied
+      2- Dissatisfied
+      3- Neutral
+      4- Satisfied
+      5- Very Satisfied
+
+2. What factors contribute most to your job satisfaction? (Select all that apply)
+
+      Compensation
+      Work-Life Balance
+      Career Growth Opportunities
+      Team and Management Support
+      Company Culture
+      Job Security
+      Other (please specify)
+
+3. On a scale of 1 to 5, How likely are you to recommend this company as a good place to work to friends or colleagues?
+      (1 = Not Likely, 5 = Very Likely)
+
+4. How would you rate the work-life balance at the company?
+
+      Excellent
+      Good
+      Fair
+      Poor
+
+5. How frequently do you feel stressed or overworked in your role?
+      Rarely
+      Sometimes
+      Often
+      Always
+
+6. In your opinion, how well does the company foster a positive workplace culture?
+      (1 = Not Well, 5 = Very Well)
+
+7. How satisfied are you with the support and feedback you receive from your manager?
+      (1 = Not Satisfied, 5 = Very Satisfied)
+
+8. Do you feel there are clear growth opportunities within the company?
+      Yes
+      Somewhat
+      No
+
+9. What improvements would you like to see in the workplace?
+   (Open-ended)
+
 10. write your question here... (optional)
 ```
 
