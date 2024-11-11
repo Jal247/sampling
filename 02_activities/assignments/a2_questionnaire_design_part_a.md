@@ -33,6 +33,8 @@ Sampling Frame: Employees across various departments with entry- and lower-level
 
 Sampling Units: Each employee in an entry- or lower-level position represents a sampling unit.
 
+Observational Units: The individual employees in entry- and lower-level positions who are participating in the survey. Each employee's responses provide data points on their job satisfaction, challenges, and perspectives on workplace culture.
+
 Sampling Strategy:
 
 thought 1: we can use a simple random sampling strategy to ensure a representative sample of employees across different departments and to gather diverse perspectives on factors affecting satisfaction and turnover.
